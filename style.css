@@ -1,0 +1,577 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body a {
+    text-decoration: none;
+}
+
+img {
+    object-fit: contain;
+}
+
+nav {
+    height: 50px;
+    background-color: #f5f5f5;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #000;
+}
+
+.fa-brands {
+    font-size: 24px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.main span {
+    color: rgba(191, 72, 0, 1);
+
+}
+
+.main a {
+    color: #000;
+}
+
+.main>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main>div img {
+    height: 54px;
+    object-fit: contain;
+}
+
+.bashliq-hisse {
+    background-color: #F5F5F7;
+    padding: 8px 0;
+}
+
+.bashliq-hisse {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.bashliq-hisse p {
+    margin-bottom: 0;
+}
+
+.mac_mini {
+    background-color: #000;
+    padding: 48px 0;
+    text-align: center;
+}
+
+.mac_mini h3 {
+    color: #F5F5F7;
+    font-weight: 600;
+}
+
+.mac_mini button {
+    border-radius: 50px;
+    padding: 8px 12px;
+    font-weight: 600;
+}
+
+.mac_mini button a {
+    color: #000;
+}
+
+.macbook_pro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    /* height: 768px; */
+    margin-top: 10px;
+    color: #F5F5F7;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.macbook_pro h6 {
+    color: #F56300;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.macbook_pro h3 {
+    font-weight: 600;
+    font-size: 51px;
+}
+
+.macbook_pro h4 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.macbook_pro p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.macbook_pro button {
+    border-radius: 50px;
+    width: 70px;
+    height: 38px;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #0071E3;
+}
+
+.macbook_pro button a {
+    color: #fff;
+}
+
+.card {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.card>img {
+    height: 207px;
+    object-fit: contain;
+}
+
+.card>.color {
+    height: 20px;
+    margin-top: 15px;
+}
+
+.mac {
+    color: #2997FF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.learn {
+    margin-bottom: 36px;
+}
+
+.buy-learn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.macbook_pro img {
+    padding-top: 140px;
+}
+
+.macbook_hero {
+    background-color: #000;
+    margin-top: 10px;
+    color: #F5F5F7;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.macbook_hero button {
+    border-radius: 50px;
+    width: 70px;
+    height: 38px;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #0071E3;
+}
+
+.macbook_hero button a {
+    color: #fff;
+}
+
+.hero {
+    color: #2997FF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.laptop {
+    margin-top: 10px;
+    color: #000;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.laptop h3 {
+    font-weight: 600;
+    font-size: 51px;
+}
+
+.laptop_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.border {
+    margin-right: 100px;
+    height: 44px;
+    padding: 2px 0px 5px 0px;
+    border-bottom: 1px solid #1D1D1F;
+}
+
+.border_1 {
+    border-bottom: 1px solid #D2D2D7;
+    height: 44px;
+    left: 420px;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.row h3 {
+    font-size: 30px;
+}
+
+.card {
+    /* height: 550px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy button {
+    background-color: #0071E3;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    padding: 12px 32px;
+    border: none;
+}
+
+.buy button a {
+    color: #fff;
+}
+
+.card-body h6 {
+    color: rgba(191, 72, 0, 1);
+}
+
+.sections .row>* {
+    text-align: center;
+}
+
+.section-2 p {
+    margin-top: 15px;
+}
+
+.sections>* .row>* {
+    position: relative;
+}
+
+.sections>* .row>* p:first-child {
+    position: absolute;
+    left: 50%;
+    top: -32px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+.banner {
+    background-color: #000;
+}
+
+.aksesuar {
+    display: flex;
+    justify-content: center;
+}
+
+.trade {
+    padding-left: 150px;
+}
+
+.mac-1 h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+.gift-card .row>*,
+.arcade .row>*,
+.tv .row>*,
+.market .row>*,
+.ventura .row>*,
+.del .row>*,
+.ban .row>*,
+.img-promotion .row>*,
+.mac-mac .row>* {
+    display: flex;
+    justify-content: center;
+    border-inline: 5px solid #fff;
+}
+
+.img-promotion .row>* {
+    background-color: #f2f2f2;
+}
+
+.mac-mac .row>* {
+    background-color: #fafafa;
+}
+
+
+.built h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 53px;
+}
+
+.built {
+    padding-top: 80px;
+}
+
+.built p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 27px;
+}
+
+.apps {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.apps a {
+    color: rgba(0, 0, 0, .6);
+    padding-top: 10px;
+}
+
+.apps :first-child a {
+    color: rgba(0, 0, 0, .8);
+}
+
+.apps>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.apps>div img {
+    height: 59px;
+    object-fit: contain;
+}
+
+.safari p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 27px;
+}
+
+.saf {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+}
+
+.mono {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.pro-app h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 53px;
+}
+
+.pro-app {
+    padding-top: 80px;
+}
+
+.pro-app p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 27px;
+}
+
+.Logic p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 27px;
+}
+
+.book-pro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #D2D2D7;
+}
+
+.appstore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.gift {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.ven-1 {
+    display: flex;
+    align-items: center;
+}
+
+/* .work {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+} */
+
+.edu {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-text {
+    background-color: rgba(245, 245, 247, 1);
+    color: #6E6E73;
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+
+}
+
+
+.footer-text a {
+    color: #424245;
+    text-decoration: underline;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+footer h3 {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+footer a {
+    font-size: 15px;
+    line-height: 16px;
+    color: #424245;
+}
+
+.shops {
+    gap: 20px;
+}
+
+.wallet {
+    gap: 20px;
+}
+
+.account {
+    gap: 20px;
+}
+
+.entertainment {
+    gap: 20px;
+}
+
+.store {
+    gap: 20px;
+}
+
+.business {
+    gap: 20px;
+}
+
+.education {
+    gap: 20px;
+}
+
+.healthcare {
+    gap: 20px;
+}
+
+.government {
+    gap: 20px;
+}
+
+.values {
+    gap: 20px;
+}
+
+.about {
+    gap: 20px;
+}
+
+.end-footer a {
+    text-decoration: underline;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #d8d8e1;
+    margin-bottom: 20px;
+}
+
+.copyright p {
+    margin-right: 20px;
+
+}
+
+.category a {
+    border-right: 1px solid black;
+    padding: 0 15px;
+    color: #424245;
+}
+
+.country a {
+    color: #424245;
+}
+
+.texts {
+    margin-left: 20px;
+}
